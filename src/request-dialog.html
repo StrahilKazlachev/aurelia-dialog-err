@@ -1,0 +1,22 @@
+<template>
+        <ux-dialog>
+        <ux-dialog-header>
+            <h2>
+                Send forespørsel om time
+            </h2>
+        </ux-dialog-header>
+        <ux-dialog-body>
+
+            <button click.trigger="modifyDate()">Works fine</button>
+            
+            <!-- removing this line, and everything works fine -->
+            <a href="#">Trubble</a>
+            
+
+        </ux-dialog-body>
+        <ux-dialog-footer>
+            <button click.trigger="controller.cancel()">Cancel</button>
+            <button click.trigger="controller.ok()">Ok</button>
+        </ux-dialog-footer>
+    </ux-dialog>
+</template>
